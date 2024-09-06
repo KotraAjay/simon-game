@@ -46,6 +46,8 @@ $(".box").click(function(){
             ps("wrong");
             level=0;
             $(".title").text("Game Over, Press any Key to Start.");
+            gamePattern=[];
+            userClickedPattern=[];
             flag=1;
         }
         if(userClickedPattern.length==gamePattern.length && flag!=1)
